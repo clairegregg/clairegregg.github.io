@@ -73,6 +73,7 @@ html {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+  font-size: 110%;
 }
 
 /* About section */
@@ -81,6 +82,19 @@ html {
   margin-top: 0;
   font-family: "Righteous";
   font-size: 3.25rem;
+}
+
+.copyright {
+  font-size: 60%;
+}
+.sidebar-contact p {
+  font-size: 90%;
+  font-weight: 400;
+}
+.sidebar-contact a {
+  font-size: 85%;
+  font-weight: 300;
+  color: rgba(255,255,255,0.7);
 }
 
 /* Sidebar nav */
