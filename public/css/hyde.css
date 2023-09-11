@@ -41,7 +41,7 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -73,7 +73,7 @@ html {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
-  font-size: 110%;
+  font-size: 130%;
 }
 
 /* About section */
@@ -85,14 +85,14 @@ html {
 }
 
 .copyright {
-  font-size: 60%;
+  font-size: 70%;
 }
 .sidebar-contact p {
-  font-size: 90%;
+  font-size: 100%;
   font-weight: 400;
 }
 .sidebar-contact a {
-  font-size: 85%;
+  font-size: 90%;
   font-weight: 300;
   color: rgba(255,255,255,0.7);
 }
