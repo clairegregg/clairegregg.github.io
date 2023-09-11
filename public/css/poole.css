@@ -103,6 +103,15 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
+.welcome {
+  font-size: 7rem;
+}
+
+.intro {
+  font-size: 2rem;
+}
+
+
 /* Body text */
 p {
   margin-top: 0;
