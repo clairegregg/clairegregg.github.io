@@ -32,9 +32,9 @@ I am currently working as a demonstrator for **Computer Networks**, a year 3 com
 ### Google Internship (SRE Intern)
 *Summer 2023*
 
-In this 13 week internship, I worked independently to create a metadata integrity checker. I consulted with my team, located in India, Ireland, and the USA, to design the checker from the ground up. I wrote a private API which performs 5 checks on this metadata, alerting when an error is found. I worked with another team to automate this check. Previously, metadata errors could cause incidents without warning. 
+In this 13 week internship, I worked independently to create a metadata integrity checker. I consulted with my team, located in India, Ireland, and the USA, to design the checker from the ground up. I wrote a private API which performs 5 checks on this metadata, alerting when an error is found. I worked with another team to automate this check. 
 
-My work ensured metadata issues are noticed, and allowed long term debugging of metadata errors. I added reliability against failure to an existing Google product. The API which implements the checks is easily modifiable to add more checks. The project should save up to 50 engineering hours per year. I did this work in Go, practicing CI/CD, and implementing monitoring.
+Previously, metadata errors could cause incidents without warning. My work ensured metadata issues are noticed, and allowed long term debugging of metadata errors. I added reliability against failure to an existing Google product. The API which implements the checks is easily modifiable to add more checks. The project should save up to 50 engineering hours per year. I did this work in Java, practicing CI/CD, and implementing monitoring.
 
 ### Google Internship (STEP - Student Training in Engineering Program)
 *Summer 2022*
