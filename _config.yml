@@ -5,7 +5,7 @@ highlighter:      pygments
 # Setup
 title:            Claire Gregg
 description:      '4th Year Computer Science student.'
-baseurl:          /    
+baseurl:          ""    
 
 author:
   name:           'Claire Gregg'
