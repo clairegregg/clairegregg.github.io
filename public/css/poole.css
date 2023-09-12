@@ -104,11 +104,17 @@ h4, h5, h6 {
 }
 
 .welcome {
-  font-size: 7rem;
+  font-size: 5rem;
+}
+
+@media (min-width: 38rem){
+  .welcome {
+    font-size: 10rem;
+  }
 }
 
 .intro {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 
