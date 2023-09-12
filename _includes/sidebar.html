@@ -1,9 +1,9 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <img src="public/portrait.jpg" alt="Image of Claire Gregg leading an alpaca.">
+      <img src="{% if page.url != site.baseurl %}../{% endif %}public/portrait.jpg" alt="Image of Claire Gregg leading an alpaca.">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.baseurl }}/">
           {{ site.title }}
         </a>
       </h1>

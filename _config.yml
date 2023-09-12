@@ -2,10 +2,14 @@
 markdown:         redcarpet
 highlighter:      pygments
 
+# Permalinks
+permalink:        pretty
+
 # Setup
 title:            Claire Gregg
 description:      '4th Year Computer Science student.'
-baseurl:          ""    
+url:              http://clairegregg.com
+baseurl:          / 
 
 author:
   name:           'Claire Gregg'
