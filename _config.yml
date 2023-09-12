@@ -5,6 +5,7 @@ highlighter:      pygments
 # Setup
 title:            Claire Gregg
 description:      '4th Year Computer Science student.'
+url:              http://clairegregg.com
 baseurl:          /
 
 author:
