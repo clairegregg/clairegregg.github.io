@@ -13,9 +13,9 @@ ___
 ## Education
 ### Integrated Bachelor/Master in Computer Science
 *2020-Present (planned graduation in June 2025)*
-- First Class Honours (85%) in **Year 3**. (Book prize)
-- First Class Honours (88%) in **Year 2**. (Book prize)
-- First Class Honours (90%) in **Year 1**. (Book prize)
+- First Class Honours in **Year 3**. (Book prize)
+- First Class Honours in **Year 2**. (Book prize)
+- First Class Honours in **Year 1**. (Book prize)
 
 ___
 
@@ -27,7 +27,7 @@ I was selected for these roles based on my academic performance. I worked as a d
 - **Introduction to Programming:** A year 1 Computer Science module teaching Java.
 - **Computer Engineering I:** A year 1 Engineering module teaching C++.
 
-I am currently working as a demonstrator for **Computer Networks**, a year 3 computer science module. For this module, I am also assisting in grading.
+I am currently working as a demonstrator for **Computer Networks**, a year 3 computer science module.
 
 ### Google Internship (SRE Intern)
 *Summer 2023*
@@ -61,7 +61,7 @@ Loreto College St. Stephen's Green. Founded coding club in my secondary school, 
 All of these awards were granted for projects which used agent-based modelling programmed using NetLogo.
 
 #### BT Young Scientist
-*2015-2017*
+*3 projects, from 2014-2017*
 
 Winner of overall Runner-Up Individual prize (one of the top four prizes), CSO prize for best use of open data, First place Individual - Junior Social and Behavioural Sciences, RTE Student Award for overall best Social and Behavioural Sciences project, First place Individual - Junior Chemical, Physical and Mathematical Sciences, Google Creative Technology Award (Best Female).
 

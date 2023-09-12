@@ -24,7 +24,7 @@ I completed a 12 week summer internship in Google Dublin after my 2nd year in un
 ___
 
 ## Propylon: ML Classification of US Legislation
-*Spring 2022*
+*Spring 2023*
 
 [Find it here](https://github.com/SWENG15/ClassifyingUSLegislation)
 
@@ -37,12 +37,12 @@ To manage this project, I made use of GitHub issues, and KanBan boards on GitHub
 ___
 
 ## Computer Networking
-*Winter 2021*
+*Winter 2022*
 
 ### UDP Protocol
 [Find it here](https://github.com/clairegregg/networks_udp_protocol)
 
-I designed and implemented a UDP protocol using Python to allow for files to be requested and sent between clients and workers, via an ingress server. This protocol allowed for large files. This was tested with multiple clients and workers using Docker (specifically, Docker compose). I also completed a report on this project, documenting my choices, and improvements which could be made.
+I designed and implemented a UDP protocol using Python to allow for files to be requested and sent between clients and workers, via an ingress server. This protocol allowed for large files. This was tested with multiple clients and workers using Docker (specifically, Docker Compose). I also completed a report on this project, documenting my choices, and improvements which could be made.
 
 ### Flow Forwarding
 [Find it here](https://github.com/clairegregg/networks_flow_forwarding)
@@ -52,12 +52,12 @@ I designed and implemented a flow forwarding protocol using Python. This allows 
 ___
 
 ## Vancouver Bus System: Shortest Path Algorithm
-*Spring 2021*
+*Spring 2022*
 
 [Find it here](https://github.com/clairegregg/BusManagement)
 
-Built a tool using Java to find the shortest path between bus stops based on large scale data from the Vancouver bus system.
-Added basic user interface for ease of use. It allows you to find the shortest path between two bus stops, search for bus stops by name, and search for trips based on their arrival time.
+I built a tool using Java to find the shortest path between bus stops based on large scale data from the Vancouver bus system.
+I added a basic user interface for ease of use. The tool allows you to find the shortest path between two bus stops, search for bus stops by name, and search for trips based on their arrival time.
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 [Find it here](https://github.com/cgreggtcd/SoftwareEngineeringMetrics)
 
-Worked in a team of 7 to create a dashboard to show a range of metric about a Software Engineering team based on a GitHub repository. My role was to implement CI/CD, containerise the web-app (using Docker), and implement the database.
+I worked in a team of 7 to create a dashboard to show a range of metrics about a Software Engineering team based on a GitHub repository. My role was to implement CI/CD, containerise the web-app (using Docker), and implement the database.
 
 ___
 
@@ -88,9 +88,9 @@ In the summer after my 1st year of university, I created an Android app to turn 
 ## Morse Code Game
 *Winter 2021*
 
-Worked with a team of 5 to program a Raspberry Pi Pico with a Morse code game. This was implemented in ARM Assembly and C. I acted as the project workflow owner, so I was in charge of organising the work within the team.
+I worked with a team of 5 to program a Raspberry Pi Pico with a Morse code game. This was implemented in ARM Assembly and C. I acted as the project workflow owner, so I was in charge of organising the work within the team.
 
 ## Visualising COVID-19 Infection rates
 *Spring 2021*
 
-Built a database and UI in Java Processing to work with and visualise COVID-19 infection rates. As well as completing my parts of the project, I was responsible for fair and appropriate distribution of the work among the group, all through remote learning.
+I built a database and UI in Java Processing to work with and visualise COVID-19 infection rates. As well as completing my parts of the project, I was responsible for fair and appropriate distribution of the work among the group, all through remote learning.
