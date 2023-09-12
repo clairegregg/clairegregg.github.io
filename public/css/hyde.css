@@ -97,6 +97,19 @@ html {
   color: rgba(255,255,255,0.7);
 }
 
+.icon-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa:hover{
+  color: white;
+}
+
+.fa {
+  color: rgba(255,255,255,0.7);
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
@@ -179,7 +192,6 @@ a.sidebar-nav-item:focus {
     margin-right: 22rem;
   }
 }
-
 
 
 /*
