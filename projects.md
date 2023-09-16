@@ -51,6 +51,14 @@ I designed and implemented a flow forwarding protocol using Python. This allows 
 
 ___
 
+## Personal Website
+*Autmumn 2023 - Present*
+[Find code here](https://github.com/clairegregg/clairegregg.github.io)
+
+I created a personal website to document my projects (you are here!). I decided to set this up using Jekyll, a Ruby based static site generator. I chose Jekyll for ease of use. Most of the website is generated from Markdown, which is easy to write and format. As Jekyll generates static sites, this also means I can host it for free on GitHub pages.
+
+___
+
 ## Vancouver Bus System: Shortest Path Algorithm
 *Spring 2022*
 
