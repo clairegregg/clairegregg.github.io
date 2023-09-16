@@ -66,7 +66,7 @@ ___
 
 [Find it here](https://github.com/cgreggtcd/SoftwareEngineeringMetrics)
 
-I worked in a team of 7 to create a dashboard to show a range of metrics about a Software Engineering team based on a GitHub repository. My role was to implement CI/CD, containerise the web-app (using Docker), and implement the database.
+I was the primary contributer in a team of 7 creating a dashboard to show a range of metrics about a Software Engineering team based on a GitHub repository. My role was to implement CI/CD, containerise the web-app (using Docker), and implement the database.
 
 ___
 
