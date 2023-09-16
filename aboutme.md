@@ -46,6 +46,11 @@ ___
 
 ## Achievements
 
+### Book Prize, Trinity College Dublin
+*2021-2023*
+
+I was granted a Book Prize for my excellent grades in 1st, 2nd, and 3rd years of university.
+
 ### Sister Seraphia Award for Excellence in Science
 *2020*
 
