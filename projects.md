@@ -23,6 +23,15 @@ I completed a 12 week summer internship in Google Dublin after my 2nd year in un
 
 ___
 
+## Minesweeper-O-Matic (in Haskell!)
+*Winter 2023*
+
+[Find it here](https://github.com/clairegregg/Minesweeper-O-Matic)
+
+I designed and implemented Minesweeper using Haskell, a functional programming language. I used the library Threepenny to implement the front end as a web app. This also included developing an auto-player, which can automatically play the logical next move for the player.
+
+___
+
 ## Propylon: ML Classification of US Legislation
 *Spring 2023*
 
