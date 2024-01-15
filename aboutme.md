@@ -5,7 +5,7 @@ title: About me
 
 Hi, I'm Claire!👋 I'm a 4th Year computer science student studying in Trinity College Dublin. I have a particular interest in technical infrastructure, and how systems work. I love well written and well-structured code.
 
-I'm currently looking for a 6-8 month internship starting in January 2024.
+I'm currently looking for a 3 month internship summer internship for 2024.
 
 ___
 ___
@@ -26,8 +26,12 @@ ___
 I was selected for these roles based on my academic performance. I worked as a demonstrator and advisor in labs for the following modules:
 - **Introduction to Programming:** A year 1 Computer Science module teaching Java.
 - **Computer Engineering I:** A year 1 Engineering module teaching C++.
+- **Computer Networks:** A year 3 Computer Science module.
 
-I am currently working as a demonstrator for **Computer Networks**, a year 3 computer science module.
+### Software Engineering Intern (LexisNexis Risk Solutions)
+*January 2024 - June 2024*
+
+In this 5 month internship, I am working on the Vehicle Build team, which uses a variety of AWS services to provide tools for insurers to estimate risk, taking account of safety features built into cars. Participating in the Agile model of development.
 
 ### Google Internship (SRE Intern)
 *Summer 2023*
