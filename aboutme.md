@@ -5,8 +5,6 @@ title: About me
 
 Hi, I'm Claire!👋 I'm a 4th Year computer science student studying in Trinity College Dublin. I have a particular interest in technical infrastructure, and how systems work. I love well written and well-structured code.
 
-I'm currently looking for a 3 month internship summer internship for 2024.
-
 ___
 ___
 
@@ -31,7 +29,9 @@ I was selected for these roles based on my academic performance. I worked as a d
 ### Software Engineering Intern (LexisNexis Risk Solutions)
 *January 2024 - June 2024*
 
-In this 5 month internship, I am working on the Vehicle Build team, which uses a variety of AWS services to provide tools for insurers to estimate risk, taking account of safety features built into cars. Participating in the Agile model of development.
+In this 5 month internship, I worked on the Vehicle Build team - an Agile team developing and supporting a cloud native service assisting vehicle insurers in estimating risk. I worked with the product team to enable caching for a data provider. I performed QOL fixes to reduce alarming and improve monitoring dashboards. I spearheaded the microservice upgrades from Spring Boot 2.7 to Spring Boot 3.0 and from Java 17 to Java 21, finding supporting tools, performing a large proportion of the migrations of microservices, and documenting the process for knowledge sharing. With these projects I improved the security and efficiency of the Vehicle Build service, while improving monitorability.
+
+The flagship project of my internship was designing and implementing a status checker for a data ingress process, which integrated with AWS Eventbridge, SNS, SQS and Lambda to perform status checks on S3 buckets and Glue ETL Pipelines. I integrated this status checker with external monitoring tooling, allowing on-call alarms to be sent when the status checks fail. The infrastructure of this status checker was defined using Terraform, an Infrastructure as Code solution, while the status checks were written in Java. The status checks were designed in a generic way to be easily extended to any other contexts. Previously, if data was not uploaded into the data ingress process, the issue needed to be noticed manually. This could lead to data quality issues, which could affect other teams. These status checks provide toil-free visibility of the data ingress process, adding additional reliability and saving engineering time.
 
 ### Google Internship (SRE Intern)
 *Summer 2023*
