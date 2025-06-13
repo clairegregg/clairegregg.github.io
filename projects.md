@@ -5,11 +5,24 @@ title: Projects
 
 This page is used to keep track of interesting projects I have worked on.
 
+{:toc}
 ___
 
 ## Master's Thesis: Impact of Multi-Cloud Deployments on Resilience
 *Autumn 2024 - Summer 2025*
 
+[Find it here](https://github.com/clairegregg/bookinfo-multicluster)
+
+For my Master's thesis, I decided to investigate the resilience improvements brought by using a multi-cloud application deployment, specifically focusing on multi-cloud deployments through Kubernetes. This project began with a thorough review of the state of the art in multi-cloud (Kubernetes and alternatives), and resilience, in both academic and commercial/open source contexts.
+
+The sample multi-cloud Kubernetes application for this project was extended from the service mesh Istio's sample [bookinfo](https://istio.io/latest/docs/examples/bookinfo/) application. A short summary of the changes made to bookinfo for the project are below:
+1. **Addition of an external MongoDB database:** The original bookinfo application used an in-memory database, which is not scalable or appropriate.
+2. **Allowing database writes:** The original bookinfo application did not appropriately support database writes, which is not representative of a normal application.
+3. **Making it multi-cluster:** The original Istio application expected to be running in a single Kubernetes cluster, while multi-cloud applications should typically be multi-cluster. Changes were made to the sample configuration to allow inter-cluster communication and load balancing. The also included configuring the MongoDB database to replicate across multiple clusters.
+
+Due to limited resources, it was not possible to deploy this application to public clouds like AWS, Azure, or GCP, so deployment was attempted on a personal server using **kind** (**K**ubernetes **in D**ocker) to simulate multiple Kubernetes clusters on a single machine. Further modifications were required to allow this to run on bare metal - making use of MetalLB (as Kubernetes load balancers are usually provided by a cloud provider) and caddy (for routing between endpoints at the same IP address based on URL).
+
+Despite this work, it was not possible to create a functiona; deployment on a machine where testing could be done (due to seconds long latencies). Evaluation was performed using graph resilience metrics (typically used for judging the resilience of electrical networks) and situational analysis of the design, showing an improvement in resilience.
 
 ___
 
@@ -36,6 +49,21 @@ ___
 I completed a 12 week summer internship in Google Dublin, on the Accelerated Storage SRE team, after my 2nd year in university. In this internship, I worked with a partner to integrate server calls into a command line interface. These were required for certain commands to run. Previously, these server calls had to be done manually by calling 2 other command line interfaces before running the intended command. Our work made this tool easier and more efficient to use. I did this work in Go, and submitted over 50 commits personally, practising CI/CD.
 
 ___
+
+## Scalable Globally Distributed Multiplayer Pacman 
+*Spring 2025*
+
+[Find it here](https://github.com/clairegregg/dist_systems_group_M)
+
+___
+
+## Low Earth Orbit Satellite Protocol
+*Winter 2024*
+
+[Find it here](https://github.com/Scalable-2024/bobb-protocol)
+
+___
+
 
 ## Minesweeper-O-Matic (in Haskell!)
 *Winter 2023*
