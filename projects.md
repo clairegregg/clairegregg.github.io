@@ -3,14 +3,28 @@ layout: page
 title: Projects
 ---
 
-This page is used to keep track of projects I have worked on.
+This page is used to keep track of interesting projects I have worked on.
+
+___
+
+## Master's Thesis: Impact of Multi-Cloud Deployments on Resilience
+*Autumn 2024 - Summer 2025*
+
+
+___
+
+## Google Modernisation: Operational Tooling
+*Summer 2024*
+I completed a 12 week summer internship in Google SRE (Dublin), on the Cloud SQL SRE team, following my 4th year in university. During this,  I worked independently to modernise existing SRE operational tooling. For this, I worked in Go. I improved the structure of the code, modularising the tools, while also making use of improved dependencies which introduced new features. This included improved load balancing and introducing load shedding. These tools are used for monitoring and incident response. Previously, these tools could be made unusable if their load became too high. Now, load shedding can be easily installed to ensure the tools remain usable in high-strain situations.
+
+During this internship, I wrote several design documents, and participated in peer review of code. I performed benchmarking and load testing against both tools to provide quantifiable results of my work.
 
 ___
 
 ## Google Reliability: Metadata Integrity Checker
 *Summer 2023*
 
-I completed a 13 week summer internship in Google SRE (Dublin) after my 3rd year in university. During this, I worked independently to create a metadata integrity checker. I consulted with my team, located in India, Ireland, and the USA, to design the checker from the ground up. I wrote a private API which performs 5 checks on this metadata, alerting when an error is found. I worked with another team to automate this check. 
+I completed a 13 week summer internship in Google SRE (Dublin), on the Memorystore SRE team, after my 3rd year in university. During this, I worked independently to create a metadata integrity checker. I consulted with my team, located in India, Ireland, and the USA, to design the checker from the ground up. I wrote a private API which performs 5 checks on this metadata, alerting when an error is found. I worked with another team to automate this check. 
 
 Previously, metadata errors could cause incidents without warning. My work ensured metadata issues are noticed, and allowed long term debugging of metadata errors. I added reliability against failure to an existing Google product. The API which implements the checks is easily modifiable to add more checks. The project should save up to 50 engineering hours per year. I did this work in Java, practicing CI/CD, and implementing monitoring.
 
@@ -19,7 +33,7 @@ ___
 ## Google CLI Tool: Improving Usability
 *Summer 2022*
 
-I completed a 12 week summer internship in Google Dublin after my 2nd year in university. In this internship, I worked with a partner to integrate server calls into a command line interface. These were required for certain commands to run. Previously, these server calls had to be done manually by calling 2 other command line interfaces before running the intended command. Our work made this tool easier and more efficient to use. I did this work in Go, and submitted over 50 commits personally, practising CI/CD.
+I completed a 12 week summer internship in Google Dublin, on the Accelerated Storage SRE team, after my 2nd year in university. In this internship, I worked with a partner to integrate server calls into a command line interface. These were required for certain commands to run. Previously, these server calls had to be done manually by calling 2 other command line interfaces before running the intended command. Our work made this tool easier and more efficient to use. I did this work in Go, and submitted over 50 commits personally, practising CI/CD.
 
 ___
 
@@ -63,7 +77,7 @@ ___
 ## Personal Website
 *Autumn 2023 - Present*
 
-[Find code here](https://github.com/clairegregg/clairegregg.github.io)
+[Find it here](https://github.com/clairegregg/clairegregg.github.io)
 
 I created a personal website to document my projects (you are here!). I decided to set this up using Jekyll, a Ruby based static site generator. I chose Jekyll for ease of use. Most of the website is generated from Markdown, which is easy to write and format. As Jekyll generates static sites, this also means I can host it for free on GitHub pages.
 
