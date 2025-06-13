@@ -3,28 +3,38 @@ layout: page
 title: About me
 ---
 
-Hi, I'm Claire!👋 I'm a 4th Year computer science student studying in Trinity College Dublin. I have a particular interest in technical infrastructure, and how systems work. I love well written and well-structured code.
+Hi, I'm Claire!👋 I just graduated from my integrated Master's and Bachelor's degree in Computer Science from Trinity College Dublin. I have a particular interest in technical infrastructure, and how systems work. I love well written and well-structured code.
 
 ___
 ___
 
 ## Education
-### Integrated Bachelor/Master in Computer Science
-*2020-Present (planned graduation in June 2025)*
-- First Class Honours in **Year 3**. (Book prize)
-- First Class Honours in **Year 2**. (Book prize)
-- First Class Honours in **Year 1**. (Book prize)
+### Bachelor in Computer Science - *Trinity College Dublin*
+*2020-2024*
+First Class Honours - Book Prizes in years 1-3.
+
+### Master in Computer Science - *Trinity College Dublin*
+*2024-2025*
+Distinction.
 
 ___
 
 ## Work experience
 ### Lab Demonstrator
-*2022-Present*
+*2022-2024*
 
 I was selected for these roles based on my academic performance. I worked as a demonstrator and advisor in labs for the following modules:
 - **Introduction to Programming:** A year 1 Computer Science module teaching Java.
 - **Computer Engineering I:** A year 1 Engineering module teaching C++.
 - **Computer Networks:** A year 3 Computer Science module.
+- **Symbolic Programming:** A year 3 Computer Science module teaching Prolog.
+
+### Google Internship (SRE Intern)
+*Summer 2024*
+
+In this 12 week internship, I worked independently to modernise existing SRE operational tooling. For this, I worked in Go. I improved the structure of the code, modularising the tools, while also making use of improved dependencies which introduced new features. This included improved load balancing and introducing load shedding. These tools are used for monitoring and incident response. Previously, these tools could be made unusable if their load became too high. Now, load shedding can be easily installed to ensure the tools remain usable in high-strain situations.
+
+During this internship, I wrote several design documents, and participated in peer review of code. I performed benchmarking and load testing against both tools to provide quantifiable results of my work.
 
 ### Software Engineering Intern (LexisNexis Risk Solutions)
 *January 2024 - June 2024*
