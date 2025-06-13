@@ -11,10 +11,12 @@ ___
 ## Education
 ### Bachelor in Computer Science - *Trinity College Dublin*
 *2020-2024*
+
 First Class Honours - Book Prizes in years 1-3.
 
 ### Master in Computer Science - *Trinity College Dublin*
 *2024-2025*
+
 Distinction.
 
 ___
