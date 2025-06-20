@@ -4,5 +4,12 @@ layout: default
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
+  {{ page.intro }}
+  <section>
+    <header>
+      <h2 id="toctitle_id" class="toctitle">Contents</h2>
+    </header>
+    {% include toc.html html=content h_min=2 h_max=2%}
+  </section>
+  {% include anchor_headings.html html=content anchorBody="#" h_min=2 h_max=2 %}
 </div>

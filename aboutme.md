@@ -1,11 +1,8 @@
 ---
 layout: page
 title: About me
+intro: "Hi, I'm Claire!👋 I just graduated from my integrated Master's and Bachelor's degree in Computer Science from Trinity College Dublin. I have a particular interest in technical infrastructure, and how systems work. I love well written and well-structured code."
 ---
-
-Hi, I'm Claire!👋 I just graduated from my integrated Master's and Bachelor's degree in Computer Science from Trinity College Dublin. I have a particular interest in technical infrastructure, and how systems work. I love well written and well-structured code.
-
-___
 ___
 
 ## Education
@@ -21,7 +18,7 @@ Distinction.
 
 ___
 
-## Work experience
+## Work Experience
 ### Lab Demonstrator
 *2022-2024*
 
