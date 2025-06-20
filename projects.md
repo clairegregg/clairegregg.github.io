@@ -63,6 +63,14 @@ ___
 
 [Find it here](https://github.com/Scalable-2024/bobb-protocol)
 
+In a module on scalable computing, I helped to orchestrate, design, implement and deploy a protocol for low earth orbit (LEO) satellites, simulated on a group of Raspberry Pis. Starting with a group of 4, we were required to interoperate with several other group's protocols, requiring larger scale team work. I took on a leadership role (with regards to organisation and design) in both my team and the course as a whole, working with over 30 individuals to begin with, and bringing the eventual protocol to completion with 12 individuals across 3 teams.
+
+Aside from leadership and design, I personally brought the following elements to the protocol:
+1. Device discovery (within the private network of the Raspberry Pis).
+2. Handshaking.
+3. Handling Pi networks.
+4. Deployment to Raspberry Pis - including modifications to others' code only tested on laptops.
+
 ___
 
 
