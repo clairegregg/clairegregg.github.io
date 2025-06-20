@@ -51,10 +51,16 @@ I completed a 12 week summer internship in Google Dublin, on the Accelerated Sto
 
 ___
 
-## Scalable Globally Distributed Multiplayer Pacman 
+## Scalable Globally Distributed Multiplayer PacMan 
 *Spring 2025*
 
 [Find it here](https://github.com/clairegregg/dist_systems_group_M)
+
+I worked with a team of 5 to design, implement and deploy a globally multiplayer and scalable version of the game PacMan. This was implemented using Go for backend and JavaScript for frontend, and orchestrated using Kubernetes. I personally managed the deployment and scalability of the project. 
+
+Deployment included creating 3 Kubernetes clusters on a personal server, as well as a final Kubernetes cluster on Azure, and using GitHub actions to automate code deployment. These clusters housed all backend services including a MongoDB database. The frontend was deployed as a docker container on the personal server, with routing between the different services managed by Caddy.
+
+Scaling was handled by splitting the global PacMan map into an infinite number of "chunks", each of which is managed by a seperate Kubernetes pod. Chunks are designed to be stateless once users are gone, so when they are not in use by a user, the chunk's pod can be turned down. I used OpenKruise [Advanced StatefulSets](https://openkruise.io/docs/user-manuals/advancedstatefulset) for these, ensuring the pods retained state while in use, and the ability to bring pods up and down without issues. 
 
 ___
 
@@ -63,7 +69,7 @@ ___
 
 [Find it here](https://github.com/Scalable-2024/bobb-protocol)
 
-In a module on scalable computing, I helped to orchestrate, design, implement and deploy a protocol for low earth orbit (LEO) satellites, simulated on a group of Raspberry Pis. Starting with a group of 4, we were required to interoperate with several other group's protocols, requiring larger scale team work. I took on a leadership role (with regards to organisation and design) in both my team and the course as a whole, working with over 30 individuals to begin with, and bringing the eventual protocol to completion with 12 individuals across 3 teams.
+In a module on scalable computing, I helped to orchestrate, design, implement and deploy a protocol for low earth orbit (LEO) satellites, simulated on a group of Raspberry Pis. Starting with a group of 4, we were required to interoperate with several other group's protocols, requiring larger scale team work. I took on a leadership role (with regards to organisation and design) in both my team and the course as a whole, working with over 30 individuals to begin with, and bringing the eventual protocol to completion with 12 individuals across 3 teams, using Python.
 
 Aside from leadership and design, I personally brought the following elements to the protocol:
 1. Device discovery (within the private network of the Raspberry Pis).
