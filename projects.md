@@ -22,12 +22,13 @@ The sample multi-cloud Kubernetes application for this project was extended from
 
 Due to limited resources, it was not possible to deploy this application to public clouds like AWS, Azure, or GCP, so deployment was attempted on a personal server using **kind** (**K**ubernetes **in D**ocker) to simulate multiple Kubernetes clusters on a single machine. Further modifications were required to allow this to run on bare metal - making use of MetalLB (as Kubernetes load balancers are usually provided by a cloud provider) and caddy (for routing between endpoints at the same IP address based on URL).
 
-Despite this work, it was not possible to create a functiona; deployment on a machine where testing could be done (due to seconds long latencies). Evaluation was performed using graph resilience metrics (typically used for judging the resilience of electrical networks) and situational analysis of the design, showing an improvement in resilience.
+Despite this work, it was not possible to create a functional deployment on a machine where testing could be done (due to seconds long latencies). Evaluation was performed using graph resilience metrics (typically used for judging the resilience of electrical networks) and situational analysis of the design, showing an improvement in resilience.
 
 ___
 
 ## Google Modernisation: Operational Tooling
 *Summer 2024*
+
 I completed a 12 week summer internship in Google SRE (Dublin), on the Cloud SQL SRE team, following my 4th year in university. During this,  I worked independently to modernise existing SRE operational tooling. For this, I worked in Go. I improved the structure of the code, modularising the tools, while also making use of improved dependencies which introduced new features. This included improved load balancing and introducing load shedding. These tools are used for monitoring and incident response. Previously, these tools could be made unusable if their load became too high. Now, load shedding can be easily installed to ensure the tools remain usable in high-strain situations.
 
 During this internship, I wrote several design documents, and participated in peer review of code. I performed benchmarking and load testing against both tools to provide quantifiable results of my work.
